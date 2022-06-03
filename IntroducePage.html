@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Donghoon Wang</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+
+    <style>
+        @media screen and (max-width: 1000px) {
+            body {
+                width: auto;
+            }
+
+            img {
+                float: none;
+                vertical-align: middle;
+            }
+
+            .travel_image {
+                width: 100%;
+                height: auto;
+                margin-left: 0;
+                margin-right: 0;
+                max-width: none;
+                max-height: none;
+                
+            }
+
+            .nav_container {
+                overflow: hidden;
+                margin-top: 10px;
+            }
+
+            .link {
+                width: auto;
+                float: left;
+                margin-left: 30px;
+            }
+
+            .text_main {
+                width: auto;
+                float: left;
+            }
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+
+            
+
+            $('#home').show();
+            $('#about_me').hide();
+            $('#travel').hide();
+
+            $('.home').click(function () {
+
+                
+                $('#home').show();
+                $('#about_me').hide();
+                $('#travel').hide();
+                });
+
+                $('.about_me').click(function() {
+                    $('#home').hide();
+                    $('#travel').hide();
+                    $('#about_me').show();
+                    
+                });
+
+                $('.travel').click(function () {
+                    $('#home').hide();
+                    $('#about_me').hide();
+                    $('#travel').show();
+                })
+
+            
+            });   
+    </script>
+
+
+</head>
+
+<body>
+    <hr>
+    <div class="frame">
+        <div class="nav_container">
+
+            <a class="link home">Home</a>
+            <a class="link about_me">About Me</a>
+            <a class="link travel">Travel</a>
+        </div>
+    </div>
+    <!--End of nav-->
+    <div id="home" class="text_frame">
+
+        <img src="https://github.com/nawang311/webProgramming/blob/main/profilePhoto.jpg?raw=true">
+
+        <div class="text_container"></div>
+        <div class="text_main"><b>안녕하세요! 제 이름은 왕동훈입니다.</b><br><br>
+            저는 강원대학교 춘천캠퍼스에 컴퓨터공학과 2학년으로 재학 중이며, 코딩이 재미있지만 어떤 분야로 가고 싶은지 아직 정하지 못해서 이것저것 하나씩 공부하고 있는
+            대학생입니다.<br><br>
+            Java를 많이 활용하고 싶어 하고, 서버 관련 기술에 흥미를 느껴서 방학에 책을 사서 기본적인 것들을 공부해보려 합니다.
+            <br><br><b> Hi! My name is Donghoon Wang.</b><br><br>
+            I am a sophomore majoring in computer engineering at Kangwon National University Chuncheon Campus, and I am
+            a college student studying this and that because I have not decided what field I want to go to although
+            coding is interesting.<br><br>I want to use Java a lot, and I am interested in server-related technology, so
+            I am going to buy a book and study basic things during vacation.
+        </div>
+    </div>
+
+    </div>
+    
+
+    <!--start of About Me-->
+
+    <div id="about_me">
+        <h3 class="subtitle_about_me">About Me</h3>
+        <div class="about_me_content">
+            저는 강동구 소재의 고덕중학교, 광문고등학교를 졸업했습니다. 스무 살 때까지 게임에 빠져 방황하다가,
+            이렇게는 안 되겠다 싶어 기숙학원에 2년간 있었고, 23살의 늦은 나이로 대학에 입학했습니다.<br><br>
+            1학년 때, 대학 공부를 하지 않고 또다시 게임에 빠져 1학년을 보냈고, 군대에 갔다 온 후에는 남이 시켜서가 아닌 제 의지로 공부를 해 보고 싶어서
+            1학년때 하지 않았던 C와 Java를 공부하였고, 코딩의 결과물을 콘솔 창이 아닌 GUI처럼 시각적으로 나타나는 걸 보고 싶어서, 안드로이드 프로그래밍 기본서를 구매해 집 앞 카페에서 독학하였습니다.
+            <br><br>굉장히 재미있을 줄 알았던 제 생각과는 다르게, 난이도와 상관없이, 기초 안드로이드 공부는 저와 잘 맞지 않았습니다.
+            주변에서는 나에게 맞는 것을 찾아서 이것저것 해보라고 조언해 주었고, 이번 년도에 자격증과 조금 심화적인 Java, 그리고 아직 해보지는 않았지만 흥미가 생기는 서버 쪽을 공부해보고 싶습니다.
+            <br><br>백준 등의 문제풀이 사이트에서 문제를 풀어보는 것은 재미있으나, 코딩을 이용해서 무엇을 만들고 싶은지, 무엇을 하고 싶은지는 이제부터 알아가보려 합니다.<br>
+            이번년도가 끝나기 전에, 이 분야에서 꿈을 찾는 것이 제 목표입니다.
+
+
+        </div>
+    </div>
+
+    <!--start of Travel-->
+
+    <div id="travel">
+        <h3 class="subtitle_travel">호주 여행</h3>
+        <div class="travel_content">
+            저는 여행을 별로 좋아하지 않습니다. 일상에 변화를 주는 걸 별로 좋아하지 않기도 하고, 무엇보다 준비하고 일정을 짜며 들인 수고만큼 내가 즐거울까? 하는 생각 때문입니다.
+            이런 이유로 여행을 거의 가지 않지만, 1학년 때 갔던 가족여행은 굉장히 재미있었던 추억으로 남아 있어 이것을 이야기하고자 합니다.
+        </div>
+        <div>
+            <img class="travel_image" src="https://github.com/nawang311/webProgramming/blob/main/20190813_123626.jpg?raw=true">
+        </div>
+        <div class="travel_text_01">
+            어릴 적 보드게임에서나 보던 시드니의 오페라 하우스를 직접 보고 왔습니다. 내부로 들어가는 문이 잠겨 있어서, 쉬는 날인가? 하고 외형만 봤던 걸로 기억합니다.
+            5박 7일의 호주 여행 중 제대로 관광을 시작한 첫 날, 한국인 가이드분이 진행하는 팁 투어에 참가해서 여러 곳을 돌아다니다가 마지막에 방문한 곳이었습니다.
+            멀리서 봤던 예쁜 외형과 다르게 가까이서 보면 생각과 꽤 달랐습니다. 마치 화장실 타일같은 것으로 이루어져 있었습니다. 여행은 평소에 잘 생각하지도 않아 해외여행은 꿈도 안 꾸고 있었는데
+            이 앞에 서니 뭔가 여행을 왔다는 느낌이 처음으로 강하게 들어서 기억에 남았습니다.
+        </div>
+        <div>
+            <img class="travel_image" src="https://github.com/nawang311/webProgramming/blob/main/20190813_180127.jpg?raw=true">
+        </div>
+        <div class="travel_text_02">
+            저녁에서 밤으로 넘어갈 즈음에, 크루즈를 타고 찍었던 사진입니다.<br>
+            저는 자연 경관이나 풍경같은 걸 좋아하시는 부모님과 다르게, 야경을 굉장히 좋아합니다.
+            좀 오글거리는 글일 수도 있지만, 좋든 싫든 열심히 일하는 사람들이 모여서 건물이 저렇게 밝게 빛난다는 게 너무 예쁩니다. 제가 여행을 다시 갈 일이 있다면 무조건 야경이 예쁜 곳으로 가고 싶습니다.
+        </div>
+        <div>
+            <img class="travel_image" src="https://github.com/nawang311/webProgramming/blob/main/20190814_155140.jpg?raw=true">
+        </div>
+        <div class="travel_text_03">
+            가장 기억에 남았던 일입니다. 투어 중에 들렀던, 우리나라의 동물원보다는 조금 자연에 가깝게 조성이 되어 있는 장소에 들렀었습니다.
+            살면서 처음으로 코알라도 보고, 공작과 비슷한 새도 봤었으나 제일 기억에 남은 동물은 캥거루입니다.
+            <br>장소가 장소라서 그런지는 모르겠지만 사람을 겁내지 않았고, 울타리 바깥에 비치되어 있는 건초 더미같은 걸 한 움큼 집어서 주면 혀를 날름거리며 맛있게 먹는 모습이 엄청 귀여웠습니다.
+            데려다가 한 마리 키우고 싶을 정도로요. 가끔 울타리를 빠져나오는 캥거루도 있었고, 독수리의 먹이를 살아있는 병아리로 주는 걸 보고 충격을 먹기도 했지만, 전체적으로 정말 즐거운 경험이었습니다.
+        </div>
+
+        
+    </div>
+
+</body>
+
+</html>
