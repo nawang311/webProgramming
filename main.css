@@ -1,0 +1,67 @@
+html {
+    background-color: #E8FFFD;
+}
+
+.frame {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 50px;
+    background: #99FFCC;
+}
+
+.nav_container {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.link {
+    float: right;
+    margin-right: 30px;
+}
+
+a:hover {
+    color: violet;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 75px;
+}
+
+.text_frame {
+    text-align: center;
+    margin-top: 50px;
+}
+
+img {
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-left: 75px;
+    max-width: 500px;
+    max-height: 500px;
+    margin-right: 50px;
+}
+
+.text_main{
+    float: top;
+    margin-top: 30px;
+}
+
+
+
+.subtitle_about_me, .about_me_content, .subtitle_travel, .travel_content {
+    text-align: center;
+}
+
+.travel_content, .travel_text_01, .travel_text_02, .travel_text_03 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.travel_text_02 {
+    margin-bottom: 115px;
+}
